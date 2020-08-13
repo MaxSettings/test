@@ -1,0 +1,34 @@
+.site-burger {
+    display: none;
+    cursor: pointer;
+    width: 20px;
+    height: 12px;
+    position: relative;
+    margin: 0 0 0 auto;
+    @media(max-width: 768px) {
+        display: block;
+    }
+    &__stick {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+        top: 5px;
+        background-color: #000000;
+    }
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #000000;
+        left: 0;
+    }
+    &:before {
+        top: 0;
+    }
+    &:after {
+        bottom: 0;
+    }
+}

@@ -1,0 +1,45 @@
+@import "../../node_modules/normalize.css/normalize";
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "vendor/libs";
+@import "base/fonts";
+@import "base/general";
+@import "../blocks/modules";
+.articles {
+    padding: 186px 0 100px;
+    @media(max-width: 1500px) {
+        padding-top: 100px;
+    }
+    @media(max-width: 1500px) {
+        padding-top: 50px;
+    }
+    &__inner {
+        border-top: 1px solid #b1b3b6;
+        border-right: 1px solid #b1b3b6;
+        align-items: stretch;
+        @media(max-width: 768px) {
+            border: none;
+        }
+    }
+    &__wrapper {
+        flex: 0 1 33.333%;
+        display: flex;
+        flex-direction: column;
+        @media(max-width: 1500px) {
+            flex: 0 1 50%;
+        }
+        @media(max-width: 768px) {
+            flex: 0 1 100%;
+        }
+    }
+    &__wrapper--last {
+        @media(max-width: 1500px) {
+            flex-direction: row;
+            flex: 0 1 100%;
+        }
+        @media(max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+}

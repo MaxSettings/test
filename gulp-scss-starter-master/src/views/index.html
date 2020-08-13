@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>gulp-scss-starter</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    @@include("../blocks/modules/site-header/site-header.html")
+    <main>
+        <section class="articles">
+            <div class="container">
+                <div class="articles__inner site-row">
+                    <div class="articles__wrapper">
+                        <article class="site-article--big">
+                            <div class="site-article site-article--big-top">
+                                <a class="site-article__link--big" href="#">
+                                    <h2 class="site-article__title site-article__title--big">Доступные SVG-иконки с инлайновыми спрайтами</h2>
+                                </a>
+                                <p class="site-article__text site-article__text--big">Если мы перестанем раздавать ярлыки типа «JS-разработчик» или «UX-разработчик», то сможем добиться перемирия в текущей войне «JS против CSS».</p>
+                                <div class="site-article__box site-article__box--big">
+                                    <time datetime="2020-02-25" class="site-article__date site-article__date--big">25 апреля</time>
+                                    <a href="#" class="site-link site-article__author site-article__author--big">Иван Константинопольский</a>
+                                </div>
+                            </div>
+                            <a class="site-article__photo--big" href="#">
+                                <img src="../img/svg/article-photo--big.svg" alt="Article photo" class="site-article__photo--big-img">
+                            </a>
+                        </article>
+                    </div>
+                    <div class="articles__wrapper">
+                        <article class="site-article">
+                            <a class="site-article__link" href="#">
+                                <h2 class="site-article__title">Советы по доступности интерактивных элементов намобильных устройствах</h2>
+                            </a>
+                            <div class="site-article__wrapper site-row">
+                                <div class="site-article__box">
+                                    <time datetime="2020-02-04" class="site-article__date">4 февраля</time>
+                                    <a href="#" class="site-link site-article__author">Андрей Ситник</a>
+                                </div>
+                                <img src="../img/svg/article-photo-1.svg" alt="Article photo" class="site-article__photo">
+                            </div>
+                        </article>
+                        <article class="site-article">
+                            <a class="site-article__link" href="#">
+                                <h2 class="site-article__title">Что нового в JavaScript 2019</h2>
+                            </a>
+                            <div class="site-article__wrapper site-row">
+                                <div class="site-article__box">
+                                    <time datetime="2020-03-12" class="site-article__date">12 марта</time>
+                                    <a href="#" class="site-link site-article__author">Девид Нил</a>
+                                </div>
+                                <img src="../img/svg/article-photo-2.svg" alt="Article photo" class="site-article__photo">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="articles__wrapper articles__wrapper--last">
+                        <article class="site-article site-article--last">
+                            <a class="site-article__link" href="#">
+                                <h2 class="site-article__title">Советы по доступности интерактивных элементов намобильных устройствах</h2>
+                            </a>
+                            <div class="site-article__wrapper site-row">
+                                <div class="site-article__box">
+                                    <time datetime="2020-02-04" class="site-article__date">4 февраля</time>
+                                    <a href="#" class="site-link site-article__author">Андрей Ситник</a>
+                                </div>
+                                <img src="../img/svg/article-photo-1.svg" alt="Article photo" class="site-article__photo">
+                            </div>
+                        </article>
+                        <article class="site-article site-article--last">
+                            <a class="site-article__link" href="#">
+                                <h2 class="site-article__title">Что нового в JavaScript 2019</h2>
+                            </a>
+                            <div class="site-article__wrapper site-row">
+                                <div class="site-article__box">
+                                    <time datetime="2020-03-12" class="site-article__date">12 марта</time>
+                                    <a href="#" class="site-link site-article__author">Девид Нил</a>
+                                </div>
+                                <img src="../img/svg/article-photo-3.svg" alt="Article photo" class="site-article__photo">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/vendor.js"></script>
+
+</body>
+
+</html>
